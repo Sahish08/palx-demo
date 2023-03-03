@@ -21,7 +21,7 @@ if (environment === 'test') {
   ENVIRONMENT_VARIABLES = {
     'process.env.ENVIRONMENT': JSON.stringify('production'),
     'process.env.PORT': JSON.stringify('80'),
-    'process.env.MONGO_CONNECTION_STRING': JSON.stringify('mongodb+srv://palx:palx@cluster0.qpc8ajc.mongodb.net/?retryWrites=true&w=majority')
+    'process.env.MONGO_CONNECTION_STRING': JSON.stringify('mongodb+srv://palx:palx@35.238.111.71/admin')
   };
 }
 
